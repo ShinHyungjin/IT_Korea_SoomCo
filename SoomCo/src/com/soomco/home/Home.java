@@ -1,6 +1,6 @@
-package com.soomco.page;
+package com.soomco.home;
 
-public class mainPage {
+public class Home {
 
 	public static void main(String[] args) {
 		System.out.println("hellow");

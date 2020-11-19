@@ -1,8 +1,8 @@
 package com.soomco.main;
 
-public class maintest {
+public class mainFrame {
 
-	public maintest() {
+	public mainFrame() {
 	
 	}
 	public static void main(String[] args) {
