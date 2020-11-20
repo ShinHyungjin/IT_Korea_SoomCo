@@ -77,7 +77,7 @@ public class SoomcoMain extends JFrame{
 		}else {
 			this.setTitle("SwingShop에 오신걸 환영합니다.");
 		}
-		
+		//s
 		
 		//메인 네비게이션 생성 
 		for(int i=0;i<navi.length;i++) {
