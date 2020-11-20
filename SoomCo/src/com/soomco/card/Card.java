@@ -14,9 +14,6 @@ import javax.swing.JPanel;
 import com.soomco.main.Page;
 import com.soomco.main.SoomcoMain;
 
-
-
-
 public class Card extends Page{
 	JPanel bt_container;//버튼을 묶어줄 컨테이너
 	JButton bt_pay;//결제단계로 가기
