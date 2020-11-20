@@ -1,17 +1,18 @@
 package com.soomco.main;
 
 import java.awt.Dimension;
+
 import javax.swing.JPanel;
 
 public class Page extends JPanel{
-	MainFrame mainFrame;
+	SoomcoMain soomcoMain;
 	
-	public MainFrame getMainFrame() {
-		return mainFrame;
+	public SoomcoMain getSoomcoMain() {
+		return soomcoMain;
 	}
 	
-	public Page(MainFrame mainFrame) {
-		this.mainFrame=mainFrame;
-		//this.setPreferredSize(new Dimension(mainFrame.WIDTH, mainFrame.HEIGHT-100));
+	public Page(SoomcoMain soomcomain) {
+		this.soomcoMain=soomcomain;
+		this.setPreferredSize(new Dimension(SoomcoMain.WIDTH, SoomcoMain.HEIGHT-100));
 	}
 }
