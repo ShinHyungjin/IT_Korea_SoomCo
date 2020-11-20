@@ -29,7 +29,7 @@ import com.soomco.member.Login;
 import com.soomco.member.RegistForm;
 import com.soomco.util.db.DBManager;
 
-
+//merge test
 public class SoomcoMain extends JFrame{
 	//상수 선언
 	public static final int WIDTH=1200;
