@@ -1,8 +1,8 @@
 package com.soomco.main;
 
-public class mainFrame {
+public class MainFrame {
 
-	public mainFrame() {
+	public MainFrame() {
 	
 	}
 	public static void main(String[] args) {
