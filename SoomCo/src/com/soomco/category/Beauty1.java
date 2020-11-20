@@ -1,5 +1,5 @@
 package com.soomco.category;
 
-public class Beauty {
+public class Beauty1 {
 
 }
