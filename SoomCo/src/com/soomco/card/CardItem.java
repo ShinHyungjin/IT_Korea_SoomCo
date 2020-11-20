@@ -42,7 +42,7 @@ public class CardItem extends JPanel{
 		t_ea = new JTextField(Integer.toString(cartVO.getEa()),4);
 		bt_update = new JButton("변경 적용");
 		bt_del = new JButton(" X ");
-		
+		//s
 		//스타일
 		this.setPreferredSize(new Dimension(SoomcoMain.WIDTH-400, 115));
 		this.setBackground(Color.YELLOW);

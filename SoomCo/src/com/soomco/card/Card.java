@@ -22,6 +22,7 @@ public class Card extends Page{
 	JButton bt_pay;//결제단계로 가기
 	JButton bt_del; //장바구니 비우기
 	
+	//s
 	//장바구니 역할을 컬렉션 프레임웤 객체를 선언
 	HashMap<Integer,CardVO> cartList;
 	JPanel p_content;//Cart에 직접 붙이지말고, 아이템들을 붙일 컨테이너 준비

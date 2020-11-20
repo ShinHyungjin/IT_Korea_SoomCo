@@ -6,7 +6,7 @@ public class CardVO extends ProductVO{
 	private int ea;
 	private String color;
 	private String size;
-	
+	//s
 	public String getColor() {
 		return color;
 	}

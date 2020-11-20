@@ -52,7 +52,7 @@ public class SoomcoMain extends JFrame{
 	
 	String[] navi_title= {"Home","Product","QnA","MyPage","Login"};
 	public JButton[] navi=new JButton[navi_title.length];//[][][][][] 배열생성
-	
+	//d
 	//페이지 구성 
 	Page[] page =new Page[12];//최상위페이지들	
 	
