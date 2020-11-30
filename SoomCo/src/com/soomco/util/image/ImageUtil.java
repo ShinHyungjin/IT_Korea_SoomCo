@@ -25,10 +25,10 @@ public class ImageUtil {
 
 	//아이콘을 반환해주는 메서드 
 	public static ImageIcon getIcon(Class target, String path, int width, int height) {
-		ImageIcon icon=null;
+		ImageIcon icon = null;
 		icon = new ImageIcon(target.getClassLoader().getResource(path));
 		//크기가 조정된 이미지 생성
-		Image img=icon.getImage().getScaledInstance(width, height, Image.SCALE_SMOOTH);
+		Image img = icon.getImage().getScaledInstance(width, height, Image.SCALE_SMOOTH);
 		return new ImageIcon(img);
 	}
 	
