@@ -141,6 +141,8 @@ public class SoomcoMain extends JFrame {
 		p_header_null = new JPanel();// 일단 보류
 		p_content = new JPanel();
 		scroll = new JScrollPane(p_content);
+		//2022-08-02 JScroll 휠업 값 설정
+		scroll.getVerticalScrollBar().setUnitIncrement(8); 
 		la_footer = new JLabel("<html>&nbsp;상호명:(주)숨은코딩.SoomCo<br>"
 				+ "&nbsp;Copyright ©SoomCo. All Rights Reserved.<br>"
 				+ "_________________________________________________________________</html>", SwingConstants.LEFT);
@@ -195,7 +197,7 @@ public class SoomcoMain extends JFrame {
 		try {
 			customFont = Font
 					.createFont(Font.TRUETYPE_FONT,
-							new File("C:/Users/tjdal/workspace/java_workspace/SwingMall/font/Medium.ttf")).deriveFont(22f);					
+							new File("C:/Users/user/Desktop/IT_Korea_SoomCo-master/SoomCo/src/font/Medium.ttf")).deriveFont(22f);					
 			GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
 			ge.registerFont(customFont);
 		} catch (IOException e) {
